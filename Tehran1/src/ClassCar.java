@@ -1,11 +1,12 @@
-
+// Assignment for oop course
 public class ClassCar {
 	
+	// variable
 	public String brand;
 	public String model;
 	public int amountOfFuel;
 		
-
+	// methods
 	public void brake() 
 	{
 		System.out.println("Car is breaking");
