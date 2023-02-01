@@ -9,15 +9,15 @@ public class ClassCar {
 	// methods
 	public void brake() 
 	{
-		System.out.println("Car is breaking");
+		System.out.println("Car is going to be braked");
 	}
 	
 	public void accelerate()
 	{
-		if (amountOfFuel>0) 
+		if (amountOfFuel>1) 
 		{
 			System.out.println("Car is accerlarating");
-			amountOfFuel--;
+			amountOfFuel=-1;
 		}
 		else 
 		{
